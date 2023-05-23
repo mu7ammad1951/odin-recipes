@@ -1,5 +1,5 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color:darksalmon;
 }
 
@@ -10,15 +10,52 @@ ul, ol {
 
 a, li {
     color: goldenrod;
+    font-size: 28px;
+    padding: 8px;
+    margin: 0 32px;
+}
+
+h3{
+    font-size: 28px;
+    text-decoration: underline;
 }
  
 h1 {
+    text-align: center;
     background-color:firebrick;
+    color: rgb(250, 190, 37);
     font-weight: 800;
+    font-size: 40px;
+    padding: 32px;
+
 }
 
 h2, img {
     display: block;
     margin: 0 auto;
-    background-color: indianred;
+    color:rgb(250, 190, 37);
+    background-color:maroon;
+    padding: 1em;
+    text-align: center;
+}
+
+img{
+    margin: 16px auto;
+}
+
+h4 {
+    font-size: 24px;
+}
+.recipe-link {
+    font-size: 32px;
+    text-align: center;
+    display: block;
+    margin: 2em auto;
+}
+
+li > a {
+    padding: 8px;
+    border: medium solid darkgoldenrod;
+    text-decoration: none;
+
 }
