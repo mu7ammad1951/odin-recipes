@@ -1,0 +1,24 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:darksalmon;
+}
+
+ul, ol {
+    background-color: darkred;
+    padding: 2rem;
+}
+
+a, li {
+    color: goldenrod;
+}
+ 
+h1 {
+    background-color:firebrick;
+    font-weight: 800;
+}
+
+h2, img {
+    display: block;
+    margin: 0 auto;
+    background-color: indianred;
+}
